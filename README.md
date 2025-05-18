@@ -4,12 +4,10 @@ Não será publicada a API, logo não se estressem com a segurança ou com casos
 ## Tecnologias usadas
 + Prisma
 + Prisma Client
-+ Fastify
++ Nest
 + Docker
 + Zod
 + Bcrypt - senha com hash
-+ Fastify jwt
-+ Fastify Cookies
 ## Como rodar:
 ```
 npm i
