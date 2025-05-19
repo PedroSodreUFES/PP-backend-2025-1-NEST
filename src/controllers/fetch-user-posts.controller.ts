@@ -20,6 +20,13 @@ export class FetchUserPostsController {
       orderBy: {
         createdAt: "desc",
       },
+      include: {
+        user: {
+          select: {
+            username: true,
+          },
+        },
+      },
     });
 
     return {
@@ -29,6 +36,7 @@ export class FetchUserPostsController {
           description: item.description,
           posted_at: item.createdAt,
           post_id: item.id,
+          username: item.user.username,
         };
       }),
     };
