@@ -6,6 +6,8 @@ import { envSchema } from "./env";
 import { AuthModule } from "./auth/auth.module";
 import { AuthenticateController } from "./controllers/authenticate.controller";
 import { CreatePostController } from "./controllers/create-post.controller";
+import { FetchUserPostsController } from "./controllers/fetch-user-posts.controller";
+import { FetchPostsController } from "./controllers/fetch-all-posts.controller";
 
 @Module({
   imports: [
@@ -19,6 +21,8 @@ import { CreatePostController } from "./controllers/create-post.controller";
     CreateAccountController,
     AuthenticateController,
     CreatePostController,
+    FetchUserPostsController,
+    FetchPostsController,
   ],
   providers: [PrismaService],
 })
