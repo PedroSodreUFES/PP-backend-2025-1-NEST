@@ -20,7 +20,6 @@ npm run dev
 + Caso queira deletar tudo, inclusive as informações das tabelas: docker-compose down
 ## Observação:
 Criar um .env exatamente igual ao .env.example para conseguir rodar tudo.
----
 ## Tasks
 1. [x] login(email, senha) gerando token jwt em um cookie<br>
 1. [x] cadastrar(email único, username único, senha) - senha deve ser encriptada, email e username nao podem ja existir.<br>
