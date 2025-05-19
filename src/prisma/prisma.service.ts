@@ -12,10 +12,12 @@ export class PrismaService
     });
   }
 
+  // se iniciart o prisma, conecta com o banco
   onModuleInit() {
     return this.$connect();
   }
 
+  // se crashar o banco disconecta com o banco
   onModuleDestroy() {
     return this.$disconnect();
   }

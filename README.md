@@ -1,6 +1,6 @@
 # backend-pp-2025-1
-Aqui será feito o backend do pp de 2025/1 utilizando Prisma e Nest.<br/>
-Não será publicada a API, logo não se estressem com a segurança ou com casos de testes.
+Esse repositório representa o pp de back-end 2025/1 na CT JUNIOR utilizando Prisma e, como novidade, Nest.<br/>
+Precisava treinar Nest, entao também fiz o pp.
 ## Tecnologias usadas
 + Prisma
 + Prisma Client
