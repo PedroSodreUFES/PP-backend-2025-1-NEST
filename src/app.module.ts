@@ -8,6 +8,9 @@ import { AuthenticateController } from "./controllers/authenticate.controller";
 import { CreatePostController } from "./controllers/create-post.controller";
 import { FetchUserPostsController } from "./controllers/fetch-user-posts.controller";
 import { FetchPostsController } from "./controllers/fetch-all-posts.controller";
+import { EditProfilePhotoController } from "./controllers/edit-profile-photo.controller";
+import { DeletePostController } from "./controllers/delete-post.controller";
+import { EditPostDescriptionController } from "./controllers/edit-post-description.controller";
 
 @Module({
   imports: [
@@ -23,6 +26,9 @@ import { FetchPostsController } from "./controllers/fetch-all-posts.controller";
     CreatePostController,
     FetchUserPostsController,
     FetchPostsController,
+    EditProfilePhotoController,
+    DeletePostController,
+    EditPostDescriptionController,
   ],
   providers: [PrismaService],
 })

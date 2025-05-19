@@ -21,6 +21,7 @@ export class FetchPostsController {
           foto: item.foto,
           description: item.description,
           posted_at: item.createdAt,
+          post_id: item.id,
         };
       }),
     };
